@@ -1,6 +1,6 @@
 # Binaries
 
-Find bitstreams of cores into the respective folder.
+Find core binaries into the respective folder.
 
 
 
@@ -9,13 +9,13 @@ Find bitstreams of cores into the respective folder.
 * KianV Linux  (be aware this will replace the core in flash)
 
 ```
-curl -sL https://tinyurl.com/4cbt7um7 | openFPGALoader  --board=tangnano20k --file-type ext --external-flash -f
+curl -sL https://tinyurl.com/4cbt7um7 | openFPGALoader  -b tangnano20k --file-type ext --external-flash -f
 ```
 
 * Flappy Bird
 
 ```
-curl -sL  | openFPGALoader  -b tangnano20k 
+curl -sL https://tinyurl.com/flappybird75 | openFPGALoader -b tangnano20k --file-type fs 
 ```
 
 
