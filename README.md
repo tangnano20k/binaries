@@ -12,7 +12,7 @@ Find core binaries into the respective folder.
 curl -sL https://tinyurl.com/4cbt7um7 | openFPGALoader  -b tangnano20k --file-type ext --external-flash -f
 ```
 
-* Flappy Bird
+* Flappy Bird (outputs HDMI, flap with user button, reset with the other user button)
 
 ```
 curl -sL https://tinyurl.com/flappybird75 | openFPGALoader -b tangnano20k --file-type fs 
